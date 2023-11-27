@@ -1,0 +1,24 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+    restart: always
+    ports: ['27017:27017']
+
+  redis:
+    image: redis
+    restart: always
+    ports: ['6379:6379']
+
+  # api:
+  #   restart: unless-stopped
+  #   build: .
+  #   working_dir: /var/www/ielts-api
+  #   ports:
+  #     - 8686:8686
+  #   depends_on:
+  #     - db
+  #     - redis
+  #   links:
+  #     - db
+  #     - redis

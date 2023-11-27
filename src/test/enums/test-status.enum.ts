@@ -1,0 +1,5 @@
+export enum TestStatus {
+  INITIALIZED = 'INITIALIZED',
+  IN_PROGRESS = 'IN_PROGRESS',
+  FINISHED = 'FINISHED',
+}

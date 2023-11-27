@@ -1,0 +1,4 @@
+export enum NotificationType {
+  NOTIFY = "NOTIFY",
+  INVESTMENT_ACTIVATED = "INVESTMENT_ACTIVATED",
+}
